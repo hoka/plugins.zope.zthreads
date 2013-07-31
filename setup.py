@@ -2,7 +2,6 @@ from setuptools import setup, find_packages
 
 version = '2.13.21'
 
-
 setup(name='plugins.zope.zthreads',
       version=version,
       description='Debug the threads of zope to find deadlocks',
