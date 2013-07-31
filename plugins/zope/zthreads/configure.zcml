@@ -1,0 +1,11 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser">
+
+    <browser:page
+        name="zthreads"
+        for="OFS.interfaces.IApplication"
+        permission="zope2.ViewManagementScreens"
+        class=".browser.Browser"
+        />
+
+</configure>
